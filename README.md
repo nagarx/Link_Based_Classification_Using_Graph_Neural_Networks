@@ -44,12 +44,12 @@ To set up this project on your local machine, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/Link-Based-Classification-GNN.git
+    git clone https://github.com/nagarx/Link_Based_Classification_Using_Graph_Neural_Networks.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd Link-Based-Classification-GNN
+    cd Link_Based_Classification_Using_Graph_Neural_Networks
     ```
 
 3. Install the required packages:
