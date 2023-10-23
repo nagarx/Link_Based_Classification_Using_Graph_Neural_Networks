@@ -1,0 +1,5 @@
+matplotlib
+numpy
+torch
+torch_geometric
+torcheval

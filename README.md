@@ -1,3 +1,5 @@
+# Link_Based_Classification_Using_Graph_Neural_Networks
+
 ## Project Description:
 Graph neural networks (GNNs) are a class of deep learning models that capture intrinsic data patterns to facilitate model training. They are finding extensive applications in social and ego networks, molecular discovery, and other domains where the data has an underlying graph structure.
 
@@ -82,6 +84,3 @@ The project successfully implements a Graph Convolutional Network (GCN) for semi
 - Test Accuracy: Achieved a peak test accuracy of X%.
 
 For a detailed view of the evaluation metrics and plots, refer to the Jupyter notebook (`gnn.ipynb`).
-
-
-# Link_Based_Classification_Using_Graph_Neural_Networks
