@@ -32,7 +32,7 @@ $$\[
 H^{(l+1)} = \sigma\left( D^{-\frac{1}{2}} A D^{-\frac{1}{2}} H^{(l)} W^{(l)} \right)
 \]$$
 
-Where $\( H^{(l)} \)$ is the node feature matrix at layer \( l \), \( A \) is the adjacency matrix, \( D \) is the degree matrix, \( W^{(l)} \) is the weight matrix for layer \( l \), and \( \sigma \) is the activation function.
+Where $\( H^{(l)} \)$ is the node feature matrix at layer $\( l \)$, $\( A \)$ is the adjacency matrix, $\( D \)$ is the degree matrix, $\( W^{(l)} \)$ is the weight matrix for layer $\( l \)$, and $\( \sigma \)$ is the activation function.
 
 #### Loss Function and Optimization
 
