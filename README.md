@@ -1,28 +1,18 @@
-# Link_Based_Classification_Using_Graph_Neural_Networks
-
-## Project Description:
-Graph neural networks (GNNs) are a class of deep learning models that capture intrinsic data patterns to facilitate model training. They are finding extensive applications in social and ego networks, molecular discovery, and other domains where the data has an underlying graph structure.
-
-In this project, we will develop a graph convolutional network (GCN) to classify the scientific publications in the Cora dataset. As the Cora dataset consists of interlinked data, using GNNs will allow us to capture more data correlations as compared to conventional neural networks for improved model performance. We will import the Cora dataset, implement the graph convolutional network, and use it to classify the scientific publications in the Cora dataset. Moreover, we will analyze the model performance for different split ratios of the dataset.
-
-## Technologies:
-- PyG
-- PyTorch
-- Python
-- Matplotlib
-
-
 # Link-Based Classification Using Graph Neural Networks
 [![Python](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9-red)](https://pytorch.org/)
 
 ## Introduction
 
-This repository contains an implementation of link-based classification using Graph Neural Networks (GNNs), specifically focusing on Graph Convolutional Networks (GCN). The project is built using PyTorch and PyTorch Geometric and is aimed at classifying nodes in a citation network (Cora dataset).
+This repository is dedicated to the implementation and analysis of Graph Neural Networks (GNNs), particularly focusing on Graph Convolutional Networks (GCN) for the task of link-based classification. The project employs PyTorch and PyTorch Geometric to build and evaluate the model on the Cora dataset, which consists of scientific publications in a citation network.
 
-## Objective
+### Background and Objective
 
-The primary objective of this project is to leverage the power of Graph Neural Networks for semi-supervised node classification tasks. We focus on the Cora dataset, a citation network where each node represents a research paper and edges indicate citations between papers. The model aims to classify each paper into one of several predefined categories based on its features and its connections to other papers in the network.
+Graph Neural Networks have emerged as a powerful paradigm for learning on graph-structured data, capturing intrinsic data patterns that are otherwise difficult to model. They have found extensive applications in various domains such as social networks, molecular discovery, and recommendation systems. The primary objective of this project is to leverage the strengths of GNNs for the semi-supervised classification of nodes in the Cora dataset. The dataset is composed of scientific papers linked by citations, making it an ideal candidate for demonstrating the efficacy of GNNs in capturing complex relationships between data points.
+
+### Methodology and Performance Analysis
+
+We implement a Graph Convolutional Network to classify these papers into predefined categories. Unlike conventional neural networks, GNNs can capture more sophisticated correlations in the dataset due to their ability to incorporate neighborhood information. The project includes a detailed analysis of model performance across different data splits to assess its robustness and generalizability.
 
 ## Theoretical Background
 
